@@ -7,5 +7,6 @@ requires-python = ">=3.12"
 dependencies = [
     "langchain-openai>=0.3.6",
     "langchain[all,openai]>=0.3.19",
+    "psycopg2>=2.9.10",
     "python-dotenv>=1.0.1",
 ]
